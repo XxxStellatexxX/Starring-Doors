@@ -1,6 +1,6 @@
 repeat task.wait() until game:GetService("ReplicatedStorage"):FindFirstChild("RemotesFolder")
 
-task.wait(1)
+task.wait(6)
 repeat task.wait() until game.Players.LocalPlayer.Character 
 
 if not queue_on_teleport then
